@@ -67,6 +67,10 @@
     </script>
 </head>
 <body>
+      <!-- Go to Top Button -->
+    <div class="go-to-top" id="goToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
     <!-- Header & Navigation -->
     <header>
         <div class="container">
@@ -400,6 +404,24 @@
             setTimeout(function() {
                 window.location.href = `https://wa.me/923001234567?text=${encodedMessage}`;
             }, 2000);
+        });
+
+          // Go to Top Button
+        const goToTopButton = document.getElementById('goToTop');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                goToTopButton.classList.add('visible');
+            } else {
+                goToTopButton.classList.remove('visible');
+            }
+        });
+        
+        goToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         });
     </script>
 </body>
