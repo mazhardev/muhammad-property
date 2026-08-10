@@ -9,7 +9,7 @@
   --bg-elev:   #ffffff;
   --ink:       #0c1a17;
   --ink-2:     #4d5f58;
-  --ink-3:     #7a8b84;
+  --ink-3:     #5f7168;   /* AA-compliant on white for small text */
   --line:      #e3eae7;
   --line-2:    #d2ded9;
   --brand:     #0f7a67;
@@ -35,7 +35,10 @@
 
   --font: "Segoe UI", -apple-system, BlinkMacSystemFont, "Inter", Roboto,
           "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  --font-ur: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", var(--font);
+  /* Nastaliq for Urdu and Punjabi Shahmukhi: self-hosted first, then whatever
+     the device already has, then any Arabic-script face as a last resort. */
+  --font-ur: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Alvi Nastaleeq",
+             "Urdu Typesetting", "Noto Naskh Arabic", "Segoe UI", serif;
 
   --ease: cubic-bezier(.2, .7, .3, 1);
   color-scheme: light dark;
@@ -65,7 +68,7 @@
 /* Manual theme switch must beat the media query in both directions */
 :root[data-theme="light"] {
   --bg: #ffffff;      --bg-soft: #f5f8f7;  --bg-elev: #ffffff;
-  --ink: #0c1a17;     --ink-2: #4d5f58;    --ink-3: #7a8b84;
+  --ink: #0c1a17;     --ink-2: #4d5f58;    --ink-3: #5f7168;
   --line: #e3eae7;    --line-2: #d2ded9;
   --brand: #0f7a67;   --brand-ink: #0a5749; --brand-soft: #e7f4f1;
   --gold: #a97717;    --gold-soft: #fbf2df;
@@ -215,9 +218,6 @@ p  { text-wrap: pretty; }
 }
 .icon-btn:hover { color: var(--brand-ink); border-color: var(--brand); }
 .icon-btn .icon { width: 1.15rem; height: 1.15rem; }
-.theme-toggle .icon-moon { display: none; }
-:root[data-theme="dark"] .theme-toggle .icon-moon,
-:root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
 .nav-toggle { display: none; }
 
 @media (max-width: 60rem) {
@@ -228,10 +228,11 @@ p  { text-wrap: pretty; }
     background: var(--bg); border-bottom: 1px solid var(--line);
     padding: .85rem var(--gutter) 1.4rem;
     box-shadow: var(--shadow-l);
-    clip-path: inset(0 0 100% 0); opacity: 0; pointer-events: none;
-    transition: clip-path .3s var(--ease), opacity .2s var(--ease);
+    /* visibility keeps the closed menu out of the keyboard focus order */
+    clip-path: inset(0 0 100% 0); opacity: 0; visibility: hidden; pointer-events: none;
+    transition: clip-path .3s var(--ease), opacity .2s var(--ease), visibility .3s;
   }
-  .nav-links.is-open { clip-path: inset(0 0 0 0); opacity: 1; pointer-events: auto; }
+  .nav-links.is-open { clip-path: inset(0 0 0 0); opacity: 1; visibility: visible; pointer-events: auto; }
   .nav-links a { padding: .8rem 1rem; font-size: 1.02rem; }
   .nav-actions .btn { display: none; }
 }
@@ -325,7 +326,7 @@ p  { text-wrap: pretty; }
 .area-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
 .area-card:hover .area-media img { transform: scale(1.06); }
 .area-tag {
-  position: absolute; inset: auto auto .7rem .7rem;
+  position: absolute; inset-block-end: .7rem; inset-inline-start: .7rem;
   background: rgba(6,26,21,.82); color: #eafaf5; backdrop-filter: blur(4px);
   font-size: .74rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
   padding: .3rem .65rem; border-radius: var(--r-full);
@@ -350,7 +351,7 @@ p  { text-wrap: pretty; }
 .listing-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
 .listing:hover .listing-media img { transform: scale(1.05); }
 .listing-type {
-  position: absolute; inset: .7rem auto auto .7rem;
+  position: absolute; inset-block-start: .7rem; inset-inline-start: .7rem;
   background: var(--gold); color: #fff; font-size: .72rem; font-weight: 750;
   letter-spacing: .06em; text-transform: uppercase; padding: .28rem .6rem; border-radius: var(--r-sm);
 }
@@ -379,8 +380,8 @@ p  { text-wrap: pretty; }
 /* --- Rate table --------------------------------------------------------- */
 .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--bg-elev); box-shadow: var(--shadow-s); }
 table.rates { width: 100%; border-collapse: collapse; min-width: 46rem; font-size: .93rem; }
-table.rates caption { caption-side: bottom; padding: .9rem 1.1rem; font-size: .82rem; color: var(--ink-3); text-align: left; }
-table.rates th, table.rates td { padding: .8rem 1.1rem; text-align: left; border-bottom: 1px solid var(--line); }
+table.rates caption { caption-side: bottom; padding: .9rem 1.1rem; font-size: .82rem; color: var(--ink-3); text-align: start; }
+table.rates th, table.rates td { padding: .8rem 1.1rem; text-align: start; border-bottom: 1px solid var(--line); }
 table.rates thead th { background: var(--bg-soft); font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; color: var(--ink-2); position: sticky; top: 0; }
 table.rates tbody tr:last-child td { border-bottom: 0; }
 table.rates tbody tr:hover { background: var(--brand-soft); }
@@ -416,17 +417,18 @@ table.rates .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .faq details { background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; transition: border-color .2s var(--ease); }
 .faq details[open] { border-color: var(--brand); }
 .faq summary {
-  cursor: pointer; list-style: none; padding: 1.05rem 3rem 1.05rem 1.25rem;
+  cursor: pointer; list-style: none;
+  padding-block: 1.05rem; padding-inline: 1.25rem 3rem;
   font-weight: 650; position: relative; font-size: 1rem;
 }
 .faq summary::-webkit-details-marker { display: none; }
 .faq summary::after {
-  content: ""; position: absolute; right: 1.25rem; top: 50%; width: .65rem; height: .65rem;
+  content: ""; position: absolute; inset-inline-end: 1.25rem; top: 50%; width: .65rem; height: .65rem;
   border-right: 2px solid var(--brand); border-bottom: 2px solid var(--brand);
   translate: 0 -70%; rotate: 45deg; transition: rotate .22s var(--ease);
 }
 .faq details[open] summary::after { rotate: -135deg; translate: 0 -30%; }
-.faq .faq-body { padding: 0 1.25rem 1.25rem; color: var(--ink-2); font-size: .96rem; }
+.faq .faq-body { padding-inline: 1.25rem; padding-block-end: 1.25rem; color: var(--ink-2); font-size: .96rem; }
 .faq .faq-body p + p { margin-top: .7rem; }
 
 /* --- Contact ------------------------------------------------------------ */
@@ -481,7 +483,7 @@ table.rates .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .footer-bottom a { color: #a8bdb6; }
 
 /* --- Floating actions --------------------------------------------------- */
-.fabs { position: fixed; right: clamp(.9rem, 2.5vw, 1.75rem); bottom: clamp(.9rem, 2.5vw, 1.75rem); z-index: 800; display: grid; gap: .6rem; justify-items: end; }
+.fabs { position: fixed; inset-inline-end: clamp(.9rem, 2.5vw, 1.75rem); inset-block-end: clamp(.9rem, 2.5vw, 1.75rem); z-index: 800; display: grid; gap: .6rem; justify-items: end; }
 .fab {
   display: grid; place-items: center; width: 3.25rem; height: 3.25rem; border-radius: var(--r-full);
   border: 0; cursor: pointer; color: #fff; box-shadow: var(--shadow-l);
@@ -498,6 +500,94 @@ table.rates .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .reveal { opacity: 0; translate: 0 18px; transition: opacity .6s var(--ease), translate .6s var(--ease); }
 .reveal.is-in { opacity: 1; translate: 0 0; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; translate: none; } }
+
+/* --- Language switcher --------------------------------------------------- */
+.lang-switch { position: relative; }
+.lang-switch > summary {
+  display: inline-flex; align-items: center; gap: .4rem; cursor: pointer; list-style: none;
+  height: 2.6rem; padding-inline: .8rem; border-radius: var(--r-full);
+  border: 1px solid var(--line-2); background: var(--bg-elev); color: var(--ink-2);
+  font-size: .88rem; font-weight: 650;
+  transition: color .18s var(--ease), border-color .18s var(--ease);
+}
+.lang-switch > summary::-webkit-details-marker { display: none; }
+.lang-switch > summary:hover { color: var(--brand-ink); border-color: var(--brand); }
+.lang-switch > summary .icon { width: 1.05rem; height: 1.05rem; }
+.lang-switch[open] > summary { color: var(--brand-ink); border-color: var(--brand); }
+.lang-menu {
+  position: absolute; inset-block-start: calc(100% + .5rem); inset-inline-end: 0;
+  min-width: 12rem; z-index: 50;
+  background: var(--bg-elev); border: 1px solid var(--line);
+  border-radius: var(--r-md); box-shadow: var(--shadow-l);
+  padding: .35rem; display: grid; gap: .1rem;
+}
+.lang-menu a {
+  display: flex; align-items: baseline; gap: .55rem;
+  padding: .55rem .7rem; border-radius: var(--r-sm);
+  text-decoration: none; color: var(--ink); font-size: .92rem; font-weight: 600;
+}
+.lang-menu a:hover { background: var(--brand-soft); color: var(--brand-ink); }
+.lang-menu a[aria-current="true"] { background: var(--brand); color: #fff; }
+.lang-menu a small { font-size: .76rem; opacity: .72; font-weight: 500; }
+.lang-menu a .native { font-size: 1.02rem; }
+
+@media (max-width: 60rem) {
+  .lang-switch > summary span:not(.native) { display: none; }
+  .lang-switch > summary { padding-inline: .7rem; }
+}
+
+/* --- Right-to-left: Urdu (ur) and Punjabi Shahmukhi (pa) ----------------- */
+:root[dir="rtl"] body { font-family: var(--font-ur); line-height: 2.05; }
+
+/*
+ * Letter-spacing must never apply to Nastaliq — it breaks the cursive joins
+ * between letters. Same for uppercasing, which is meaningless in this script.
+ * !important is deliberate here: it has to beat every component rule.
+ */
+:root[dir="rtl"] body * { letter-spacing: normal !important; text-transform: none !important; }
+
+:root[dir="rtl"] h1, :root[dir="rtl"] h2,
+:root[dir="rtl"] h3, :root[dir="rtl"] h4 { line-height: 1.75; font-weight: 700; }
+:root[dir="rtl"] h1 { font-size: clamp(1.8rem, 1.25rem + 2.5vw, 3.1rem); }
+:root[dir="rtl"] h2 { font-size: clamp(1.45rem, 1.1rem + 1.5vw, 2.15rem); }
+:root[dir="rtl"] h3 { font-size: clamp(1.05rem, .98rem + .35vw, 1.25rem); }
+:root[dir="rtl"] p, :root[dir="rtl"] li { line-height: 2.15; }
+
+/* Nastaliq descenders need room, so give dense components a little more air */
+:root[dir="rtl"] .eyebrow { padding-block: .5rem; line-height: 1.9; }
+:root[dir="rtl"] .area-tag,
+:root[dir="rtl"] .listing-type { padding-block: .4rem; line-height: 1.8; }
+:root[dir="rtl"] .listing-specs li { padding-block: .35rem; line-height: 1.9; }
+:root[dir="rtl"] .btn { padding-block: .85rem; line-height: 1.7; }
+:root[dir="rtl"] .nav-links a { padding-block: .6rem; }
+:root[dir="rtl"] .field > label { font-size: .85rem; }
+:root[dir="rtl"] .step::before { font-family: var(--font); }
+:root[dir="rtl"] .faq summary { line-height: 1.9; }
+
+/*
+ * Only explicitly-marked runs get forced to LTR — phone numbers, emails, URLs.
+ * Everything else (prices like "70 لاکھ روپے") is mixed Urdu + Latin digits, and
+ * the browser's bidi algorithm already lays those out correctly. Forcing a
+ * direction on them would reverse the words around the number.
+ */
+:root[dir="rtl"] .ltr {
+  font-family: var(--font); direction: ltr; unicode-bidi: isolate; display: inline-block;
+}
+:root[dir="rtl"] .fact b,
+:root[dir="rtl"] .hero-stats b,
+:root[dir="rtl"] .listing-price { line-height: 1.6; }
+:root[dir="rtl"] table.rates .num { white-space: normal; }
+
+/* The hero scrim has to darken the side the text sits on */
+:root[dir="rtl"] .hero::after {
+  background:
+    linear-gradient(260deg, rgba(4,22,18,.94) 0%, rgba(4,22,18,.82) 42%, rgba(4,22,18,.5) 100%),
+    linear-gradient(to top, rgba(4,22,18,.85), transparent 55%);
+}
+
+/* Mirror the few decorative marks that carry direction */
+:root[dir="rtl"] .svc-card .card-link .icon,
+:root[dir="rtl"] .btn .icon-arrow { scale: -1 1; }
 
 /* --- Utilities ---------------------------------------------------------- */
 .visually-hidden {

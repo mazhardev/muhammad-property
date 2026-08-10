@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.muhammadproperties.online/</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/"/>
     <image:image>
       <image:loc>https://www.muhammadproperties.online/images/okara/okara-evening.jpg</image:loc>
       <image:title>Sunset over farmland at Okara, Punjab</image:title>
@@ -43,36 +48,175 @@
       <image:title>Kalma Chowk, Renala Khurd</image:title>
     </image:image>
   </url>
-
+  <url>
+    <loc>https://www.muhammadproperties.online/ur/</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/pa/</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/"/>
+  </url>
   <url>
     <loc>https://www.muhammadproperties.online/#areas</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#areas"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#areas"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#areas"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#areas"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/ur/#areas</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#areas"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#areas"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#areas"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#areas"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/pa/#areas</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#areas"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#areas"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#areas"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#areas"/>
   </url>
   <url>
     <loc>https://www.muhammadproperties.online/#listings</loc>
     <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#listings"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#listings"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#listings"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#listings"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/ur/#listings</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#listings"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#listings"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#listings"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#listings"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/pa/#listings</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#listings"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#listings"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#listings"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#listings"/>
   </url>
   <url>
     <loc>https://www.muhammadproperties.online/#prices</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#prices"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#prices"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#prices"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#prices"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/ur/#prices</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#prices"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#prices"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#prices"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#prices"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/pa/#prices</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#prices"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#prices"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#prices"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#prices"/>
   </url>
   <url>
     <loc>https://www.muhammadproperties.online/#faq</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#faq"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#faq"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#faq"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#faq"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/ur/#faq</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#faq"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#faq"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#faq"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#faq"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/pa/#faq</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#faq"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#faq"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#faq"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#faq"/>
   </url>
   <url>
     <loc>https://www.muhammadproperties.online/#contact</loc>
     <lastmod>2026-08-10</lastmod>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#contact"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#contact"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#contact"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#contact"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/ur/#contact</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#contact"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#contact"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#contact"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#contact"/>
+  </url>
+  <url>
+    <loc>https://www.muhammadproperties.online/pa/#contact</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.muhammadproperties.online/#contact"/>
+      <xhtml:link rel="alternate" hreflang="ur" href="https://www.muhammadproperties.online/ur/#contact"/>
+      <xhtml:link rel="alternate" hreflang="pa" href="https://www.muhammadproperties.online/pa/#contact"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.muhammadproperties.online/#contact"/>
   </url>
   <url>
     <loc>https://www.muhammadproperties.online/llms.txt</loc>

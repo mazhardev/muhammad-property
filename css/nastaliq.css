@@ -1,0 +1,14 @@
+/* Self-hosted Nastaliq for the Urdu and Punjabi pages only.
+   Arabic-script subset of Noto Nastaliq Urdu (SIL Open Font License 1.1),
+   variable weight 400–700. Latin characters fall through to the Latin stack
+   in --font, so this file only needs the Arabic unicode ranges. */
+@font-face {
+  font-family: "Noto Nastaliq Urdu";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/noto-nastaliq-urdu-arabic.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1,
+                 U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41,
+                 U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}

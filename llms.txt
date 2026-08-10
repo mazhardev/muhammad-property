@@ -5,7 +5,19 @@
 > Okara District: Okara, Depalpur and Renala Khurd. Operating since 2010.
 
 Website: https://www.muhammadproperties.online/
-Last reviewed: 10 August 2026
+Last reviewed: 11 August 2026
+
+## Languages
+
+The same content is published in three languages. Each has its own URL and is
+fully translated — not machine-switched at runtime:
+
+- English — https://www.muhammadproperties.online/ (x-default)
+- Urdu (اردو), right-to-left — https://www.muhammadproperties.online/ur/
+- Punjabi in Shahmukhi script (پنجابی), right-to-left — https://www.muhammadproperties.online/pa/
+
+Urdu and Punjabi are the languages actually spoken by clients in Okara; English
+is provided for overseas Pakistani buyers and for reference.
 
 ## Contact
 
@@ -97,3 +109,5 @@ exact amount is confirmed at the time of transfer.
 - Photographs illustrate the neighbourhoods themselves, not individual properties for sale.
 - Available stock changes daily; the website shows typical property types and price ranges
   by area rather than a live inventory. Contact the office for the current list.
+- The three language versions are generated from `content/en.json`, `content/ur.json` and
+  `content/pa.json` by `build/build.js`, so they always carry the same facts and figures.

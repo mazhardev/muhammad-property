@@ -1,9 +1,38 @@
 /* Muhammad Properties, Okara — front-end behaviour
-   No dependencies. Everything degrades gracefully without JS. */
+   Shared by the English, Urdu and Punjabi pages. No dependencies.
+   Translated strings arrive via window.MP_I18N, injected by build/build.js;
+   the English defaults below are only a fallback if that script is missing. */
 (function () {
   'use strict';
 
   var WHATSAPP = '923056847007';
+
+  var T = Object.assign({
+    lang: 'en',
+    dir: 'ltr',
+    openMenu: 'Open menu',
+    closeMenu: 'Close menu',
+    themeLight: 'Switch colour theme',
+    statusOk: 'Opening WhatsApp with your message — press send there to reach us.',
+    wa: {}
+  }, window.MP_I18N || {});
+
+  T.wa = Object.assign({
+    greeting: 'Assalam-o-Alaikum Muhammad Properties,',
+    searchIntro: 'I am looking for a property in Okara:',
+    labelType: 'Type',
+    labelArea: 'Area',
+    labelSize: 'Size',
+    labelBudget: 'Budget',
+    searchOutro: 'Please send me what is available.',
+    labelName: 'Name',
+    labelPhone: 'Phone',
+    labelWant: 'I want to',
+    labelDetails: 'Details:',
+    notGiven: 'not given',
+    sentFrom: '(Sent from muhammadproperties.online)'
+  }, T.wa);
+
   var $  = function (sel, ctx) { return (ctx || document).querySelector(sel); };
   var $$ = function (sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); };
 
@@ -18,8 +47,8 @@
     root.setAttribute('data-theme', theme);
     var toggle = $('#themeToggle');
     if (toggle) {
-      toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
-      toggle.setAttribute('title', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+      toggle.setAttribute('aria-label', T.themeLight);
+      toggle.setAttribute('title', T.themeLight);
     }
   }
   try {
@@ -59,29 +88,50 @@
   var navToggle = $('#navToggle');
   var navLinks = $('#navLinks');
 
+  function navIcon(name) {
+    return '<svg class="icon" aria-hidden="true"><use href="#i-' + name + '"></use></svg>';
+  }
+
   function closeNav() {
     if (!navLinks || !navToggle) return;
     navLinks.classList.remove('is-open');
     navToggle.setAttribute('aria-expanded', 'false');
-    navToggle.setAttribute('aria-label', 'Open menu');
-    navToggle.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-menu"></use></svg>';
+    navToggle.setAttribute('aria-label', T.openMenu);
+    navToggle.innerHTML = navIcon('menu');
   }
 
   if (navToggle && navLinks) {
+    navToggle.setAttribute('aria-label', T.openMenu);
     navToggle.addEventListener('click', function () {
       var open = navLinks.classList.toggle('is-open');
       navToggle.setAttribute('aria-expanded', String(open));
-      navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-      navToggle.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-' +
-        (open ? 'close' : 'menu') + '"></use></svg>';
+      navToggle.setAttribute('aria-label', open ? T.closeMenu : T.openMenu);
+      navToggle.innerHTML = navIcon(open ? 'close' : 'menu');
     });
     navLinks.addEventListener('click', function (e) {
       if (e.target.closest('a')) closeNav();
     });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeNav();
+  }
+
+  /* ---------- Language switcher --------------------------------------- */
+  /* It is a <details> element, so it already works without JS. This only
+     closes it on an outside click or Escape, the way a menu should behave. */
+  var langSwitch = $('#langSwitch');
+  if (langSwitch) {
+    document.addEventListener('click', function (e) {
+      if (langSwitch.open && !langSwitch.contains(e.target)) langSwitch.open = false;
     });
   }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    closeNav();
+    if (langSwitch && langSwitch.open) {
+      langSwitch.open = false;
+      var summary = $('summary', langSwitch);
+      if (summary) summary.focus();
+    }
+  });
 
   /* ---------- Current section highlighting ---------------------------- */
   var navAnchors = $$('#navLinks a[href^="#"]');
@@ -141,7 +191,8 @@
   });
 
   /* ---------- WhatsApp handoff ---------------------------------------- */
-  function openWhatsApp(message) {
+  function openWhatsApp(lines) {
+    var message = lines.join('\n');
     window.open('https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(message),
                 '_blank', 'noopener');
   }
@@ -151,18 +202,24 @@
     searchForm.addEventListener('submit', function (e) {
       e.preventDefault();
       var data = new FormData(searchForm);
-      var parts = [
-        'Assalam-o-Alaikum Muhammad Properties,',
+      var pick = function (name, fallbackIndex) {
+        var value = data.get(name);
+        if (value) return value;
+        var select = searchForm.elements[name];
+        return select ? select.options[fallbackIndex || 0].text : '';
+      };
+      openWhatsApp([
+        T.wa.greeting,
         '',
-        'I am looking for a property in Okara:',
-        '• Type: ' + (data.get('type') || 'Any type'),
-        '• Area: ' + (data.get('area') || 'Anywhere in Okara District'),
-        '• Size: ' + (data.get('size') || 'Any size'),
-        '• Budget: ' + (data.get('budget') || 'Flexible'),
+        T.wa.searchIntro,
+        '• ' + T.wa.labelType + ': ' + pick('type'),
+        '• ' + T.wa.labelArea + ': ' + pick('area'),
+        '• ' + T.wa.labelSize + ': ' + pick('size'),
+        '• ' + T.wa.labelBudget + ': ' + pick('budget'),
         '',
-        'Please send me what is available. (Sent from muhammadproperties.online)'
-      ];
-      openWhatsApp(parts.join('\n'));
+        T.wa.searchOutro,
+        T.wa.sentFrom
+      ]);
     });
   }
 
@@ -179,26 +236,25 @@
       }
 
       var data = new FormData(enquiryForm);
-      var parts = [
-        'Assalam-o-Alaikum Muhammad Properties,',
-        '',
-        'Name: ' + data.get('name'),
-        'Phone: ' + (data.get('phone') || 'not given'),
-        'I want to: ' + data.get('purpose'),
-        'Area: ' + data.get('area'),
-        '',
-        'Details:',
-        data.get('message'),
-        '',
-        '(Sent from muhammadproperties.online)'
-      ];
-
       var status = $('#formStatus');
       if (status) {
-        status.textContent = 'Opening WhatsApp with your message — press send there to reach us.';
+        status.textContent = T.statusOk;
         status.classList.add('is-visible');
       }
-      openWhatsApp(parts.join('\n'));
+
+      openWhatsApp([
+        T.wa.greeting,
+        '',
+        T.wa.labelName + ': ' + data.get('name'),
+        T.wa.labelPhone + ': ' + (data.get('phone') || T.wa.notGiven),
+        T.wa.labelWant + ': ' + data.get('purpose'),
+        T.wa.labelArea + ': ' + data.get('area'),
+        '',
+        T.wa.labelDetails,
+        data.get('message'),
+        '',
+        T.wa.sentFrom
+      ]);
     });
   }
 
