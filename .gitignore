@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# Next.js build artefacts — the site is built in CI, never committed
+/.next
+/out
+next-env.d.ts
+*.tsbuildinfo
+
+# misc
+.DS_Store
+Thumbs.db
+*.log
+.env*.local
+.vercel

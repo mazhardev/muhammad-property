@@ -7,7 +7,6 @@
   "englishName": "English",
   "path": "/",
   "hreflang": "en",
-
   "meta": {
     "title": "Property Dealers in Okara | Houses, Plots & Land for Sale — Muhammad Properties",
     "description": "Muhammad Properties is an Okara-based real estate agency on GT Road. Buy, sell or rent houses, plots, shops and agricultural land in Okara Cantt, Model Town, Jawad Avenue, Canal View, Depalpur and Renala Khurd. Call +92 305 6847007.",
@@ -20,11 +19,11 @@
     "twTitle": "Property Dealers in Okara — Muhammad Properties",
     "twDescription": "Buy, sell and rent property in Okara City, Cantt, Depalpur and Renala Khurd."
   },
-
   "skipLink": "Skip to main content",
-
-  "brand": { "name": "Muhammad Properties", "tagline": "Okara &middot; Punjab" },
-
+  "brand": {
+    "name": "Muhammad Properties",
+    "tagline": "Okara · Punjab"
+  },
   "nav": {
     "services": "Services",
     "areas": "Areas",
@@ -35,7 +34,6 @@
     "faq": "FAQ",
     "contact": "Contact"
   },
-
   "ui": {
     "langLabel": "Language",
     "langMenuLabel": "Choose a language",
@@ -50,9 +48,8 @@
     "emailLabel": "Email Muhammad Properties",
     "mapTitle": "Map showing Okara, Punjab, Pakistan"
   },
-
   "hero": {
-    "badge": "Open today &middot; Mon&ndash;Sat, 9am&ndash;7pm &middot; GT Road, Okara",
+    "badge": "Open today · Mon–Sat, 9am–7pm · GT Road, Okara",
     "h1Before": "Property dealers in Okara who actually ",
     "h1Highlight": "know Okara",
     "h1After": "",
@@ -61,223 +58,800 @@
     "ctaBrowse": "See what's available",
     "waIntro": "Assalam-o-Alaikum, I saw muhammadproperties.online and I'd like to discuss a property in Okara.",
     "stats": [
-      { "value": "3 tehsils", "label": "Okara, Depalpur &amp; Renala Khurd covered" },
-      { "value": "5.3 lakh", "label": "People in Okara city (2023 census)" },
-      { "value": "N-5", "label": "On the GT Road, 2 hrs from Lahore" }
-    ]
-  },
-
-  "search": {
-    "formLabel": "Find a property in Okara",
-    "typeLabel": "Property type",
-    "typeOptions": ["Any type", "House", "Residential plot", "Commercial shop / plaza", "Agricultural land", "Rental property"],
-    "areaLabel": "Area",
-    "areaOptions": ["Anywhere in Okara District", "Okara Cantt", "Model Town Okara", "Jawad Avenue", "Canal View / Canal Road", "Gulberg City", "Al Kheer City", "Faisal Colony", "Government Colony / Civil Lines", "Katchery Bazar", "GT Road (N-5)", "Depalpur Road", "Depalpur", "Renala Khurd", "Basirpur / Haveli Lakha", "Hujra Shah Muqeem"],
-    "sizeLabel": "Size",
-    "sizeOptions": ["Any size", "3 marla or less", "5 marla", "7&ndash;10 marla", "1 kanal", "2 kanal or more", "Acres (agricultural)"],
-    "budgetLabel": "Budget",
-    "budgetOptions": ["Any budget", "Under PKR 25 lakh", "PKR 25&ndash;60 lakh", "PKR 60 lakh &ndash; 1 crore", "PKR 1&ndash;2.5 crore", "PKR 2.5 crore and above"],
-    "submitSr": "Submit",
-    "submit": "Send on WhatsApp"
-  },
-
-  "facts": {
-    "label": "Okara at a glance",
-    "items": [
-      { "value": "533,693", "label": "People in Okara city", "note": "2023 census &middot; 20th largest city in Pakistan" },
-      { "value": "3.5 million", "label": "People in Okara District", "note": "Tehsils: Okara, Depalpur, Renala Khurd" },
-      { "value": "225 sq ft", "label": "One marla in Punjab", "note": "20 marla = 1 kanal &middot; 8 kanal = 1 acre" },
-      { "value": "Since 1892", "label": "Okara on the railway line", "note": "And on the N-5 GT Road corridor" }
-    ]
-  },
-
-  "services": {
-    "eyebrow": "What we do",
-    "h2": "Full-service property dealing across Okara District",
-    "lede": "One office for the whole transaction &mdash; finding the property, checking the record, agreeing the price, and getting the transfer done at the Arazi Record Centre or sub-registrar.",
-    "cards": [
       {
-        "icon": "i-home", "h3": "Buying a property",
-        "p": "We shortlist against your real budget, take you to see them, and tell you honestly which ones we'd avoid.",
-        "list": ["Houses from 3 marla to 2 kanal", "Residential plots in developed and under-development schemes", "Site visits arranged the same week"],
-        "linkText": "See what's available", "linkHref": "#listings"
+        "value": "3 tehsils",
+        "label": "Okara, Depalpur & Renala Khurd covered"
       },
       {
-        "icon": "i-tag", "h3": "Selling a property",
-        "p": "A realistic valuation based on what has actually sold on your street &mdash; not a number designed to win your listing.",
-        "list": ["Free valuation for Okara District properties", "Listing photos, WhatsApp circulation and portal posting", "Buyer screening before anyone visits your home"],
-        "linkText": "Get a valuation", "linkHref": "#contact"
+        "value": "5.3 lakh",
+        "label": "People in Okara city (2023 census)"
       },
       {
-        "icon": "i-key", "h3": "Rentals &amp; tenancy",
-        "p": "Family homes, bachelor portions, offices and shops &mdash; with a written tenancy agreement, not a handshake.",
-        "list": ["Residential and commercial rentals", "Tenant references and police verification support", "Rent agreement drafting on stamp paper"],
-        "linkText": "Ask about rentals", "linkHref": "#contact"
-      },
-      {
-        "icon": "i-crop", "h3": "Agricultural land",
-        "p": "Okara is potato and maize country. We deal in cultivable land along the chak roads and canal distributaries.",
-        "list": ["Land in Okara, Depalpur and Renala Khurd tehsils", "Fard malkiat and khasra numbers checked before you pay", "Tube well, watercourse and access road verified"],
-        "linkText": "Discuss farmland", "linkHref": "#contact"
-      },
-      {
-        "icon": "i-scale", "h3": "Commercial property",
-        "p": "Shops, plazas and godowns on the routes that carry Okara's trade &mdash; GT Road, Katchery Bazar and the mandi belt.",
-        "list": ["Main-road shops with genuine footfall", "Godowns and warehouses near the bypass", "Rental yield estimates before you commit"],
-        "linkText": "Commercial options", "linkHref": "#listings"
-      },
-      {
-        "icon": "i-doc", "h3": "Paperwork &amp; transfer",
-        "p": "The part most people worry about. We walk it with you from bayana to biometric verification.",
-        "list": ["Fard malkiat from the Arazi Record Centre", "Society or TMA NOC and dues clearance", "Sale deed, stamp duty and registry attendance"],
-        "linkText": "See the process", "linkHref": "#process"
+        "value": "N-5",
+        "label": "On the GT Road, 2 hrs from Lahore"
       }
     ]
   },
-
+  "search": {
+    "formLabel": "Find a property in Okara",
+    "typeLabel": "Property type",
+    "typeOptions": [
+      "Any type",
+      "House",
+      "Residential plot",
+      "Commercial shop / plaza",
+      "Agricultural land",
+      "Rental property"
+    ],
+    "areaLabel": "Area",
+    "areaOptions": [
+      "Anywhere in Okara District",
+      "Okara Cantt",
+      "Model Town Okara",
+      "Jawad Avenue",
+      "Canal View / Canal Road",
+      "Gulberg City",
+      "Al Kheer City",
+      "Faisal Colony",
+      "Government Colony / Civil Lines",
+      "Katchery Bazar",
+      "GT Road (N-5)",
+      "Depalpur Road",
+      "Depalpur",
+      "Renala Khurd",
+      "Basirpur / Haveli Lakha",
+      "Hujra Shah Muqeem"
+    ],
+    "sizeLabel": "Size",
+    "sizeOptions": [
+      "Any size",
+      "3 marla or less",
+      "5 marla",
+      "7–10 marla",
+      "1 kanal",
+      "2 kanal or more",
+      "Acres (agricultural)"
+    ],
+    "budgetLabel": "Budget",
+    "budgetOptions": [
+      "Any budget",
+      "Under PKR 25 lakh",
+      "PKR 25–60 lakh",
+      "PKR 60 lakh – 1 crore",
+      "PKR 1–2.5 crore",
+      "PKR 2.5 crore and above"
+    ],
+    "submitSr": "Submit",
+    "submit": "Send on WhatsApp"
+  },
+  "facts": {
+    "label": "Okara at a glance",
+    "items": [
+      {
+        "value": "533,693",
+        "label": "People in Okara city",
+        "note": "2023 census · 20th largest city in Pakistan"
+      },
+      {
+        "value": "3.5 million",
+        "label": "People in Okara District",
+        "note": "Tehsils: Okara, Depalpur, Renala Khurd"
+      },
+      {
+        "value": "225 sq ft",
+        "label": "One marla in Punjab",
+        "note": "20 marla = 1 kanal · 8 kanal = 1 acre"
+      },
+      {
+        "value": "Since 1892",
+        "label": "Okara on the railway line",
+        "note": "And on the N-5 GT Road corridor"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "h2": "Full-service property dealing across Okara District",
+    "lede": "One office for the whole transaction — finding the property, checking the record, agreeing the price, and getting the transfer done at the Arazi Record Centre or sub-registrar.",
+    "cards": [
+      {
+        "icon": "i-home",
+        "h3": "Buying a property",
+        "p": "We shortlist against your real budget, take you to see them, and tell you honestly which ones we'd avoid.",
+        "list": [
+          "Houses from 3 marla to 2 kanal",
+          "Residential plots in developed and under-development schemes",
+          "Site visits arranged the same week"
+        ],
+        "linkText": "See what's available",
+        "linkHref": "#listings"
+      },
+      {
+        "icon": "i-tag",
+        "h3": "Selling a property",
+        "p": "A realistic valuation based on what has actually sold on your street — not a number designed to win your listing.",
+        "list": [
+          "Free valuation for Okara District properties",
+          "Listing photos, WhatsApp circulation and portal posting",
+          "Buyer screening before anyone visits your home"
+        ],
+        "linkText": "Get a valuation",
+        "linkHref": "#contact"
+      },
+      {
+        "icon": "i-key",
+        "h3": "Rentals & tenancy",
+        "p": "Family homes, bachelor portions, offices and shops — with a written tenancy agreement, not a handshake.",
+        "list": [
+          "Residential and commercial rentals",
+          "Tenant references and police verification support",
+          "Rent agreement drafting on stamp paper"
+        ],
+        "linkText": "Ask about rentals",
+        "linkHref": "#contact"
+      },
+      {
+        "icon": "i-crop",
+        "h3": "Agricultural land",
+        "p": "Okara is potato and maize country. We deal in cultivable land along the chak roads and canal distributaries.",
+        "list": [
+          "Land in Okara, Depalpur and Renala Khurd tehsils",
+          "Fard malkiat and khasra numbers checked before you pay",
+          "Tube well, watercourse and access road verified"
+        ],
+        "linkText": "Discuss farmland",
+        "linkHref": "#contact"
+      },
+      {
+        "icon": "i-scale",
+        "h3": "Commercial property",
+        "p": "Shops, plazas and godowns on the routes that carry Okara's trade — GT Road, Katchery Bazar and the mandi belt.",
+        "list": [
+          "Main-road shops with genuine footfall",
+          "Godowns and warehouses near the bypass",
+          "Rental yield estimates before you commit"
+        ],
+        "linkText": "Commercial options",
+        "linkHref": "#listings"
+      },
+      {
+        "icon": "i-doc",
+        "h3": "Paperwork & transfer",
+        "p": "The part most people worry about. We walk it with you from bayana to biometric verification.",
+        "list": [
+          "Fard malkiat from the Arazi Record Centre",
+          "Society or TMA NOC and dues clearance",
+          "Sale deed, stamp duty and registry attendance"
+        ],
+        "linkText": "See the process",
+        "linkHref": "#process"
+      }
+    ]
+  },
   "areas": {
     "eyebrow": "Where we work",
     "h2": "Okara neighbourhoods we know street by street",
-    "lede": "Every photograph below is a real place in Okara District &mdash; its chowks, parks, bazaars and landmarks. This is the city you'd actually be buying into.",
+    "lede": "Every photograph below is a real place in Okara District — its chowks, parks, bazaars and landmarks. This is the city you'd actually be buying into.",
     "cards": [
-      { "img": "okara-cantt-cmh.jpg", "alt": "Grounds of the Combined Military Hospital in Okara Cantonment", "tag": "Okara Cantt", "h3": "Okara Cantt (Civil Area)", "p": "The quietest, greenest address in the city. Wide streets, mature trees, cantonment upkeep. Buyers here look for 10 marla and 1 kanal.", "rate": "Premium end of the Okara market" },
-      { "img": "okara-company-bagh-chowk.jpg", "alt": "Company Bagh Chowk in central Okara at dusk", "tag": "Company Bagh Chowk", "h3": "Company Bagh &amp; Civil Lines", "p": "Old Okara at its most central. Walk to the courts, schools and the main bazaar. Older houses, generous plot sizes, strong rental demand.", "rate": "Best for: rental income, city-centre living" },
-      { "img": "okara-jinnah-park-chowk.jpg", "alt": "Jinnah Park Chowk, Okara, on a clear winter morning", "tag": "Jinnah Park Chowk", "h3": "Jinnah Park &amp; Depalpur Road", "p": "Families pay for the park and the schools around it. Depalpur Road behind it has been the city's steadiest growth direction.", "rate": "Best for: 5&ndash;10 marla family homes" },
-      { "img": "okara-zaman-park.jpg", "alt": "Entrance gate of Mian Muhammad Zaman Public Park, Okara", "tag": "Zaman Park, Okara", "h3": "Model Town Okara", "p": "Planned society off the Lahore&ndash;Okara Road with small entry-level plots through to 1 kanal. Popular with first-time buyers and instalment plans.", "rate": "Best for: 2.5&ndash;10 marla plots" },
-      { "img": "okara-gt-road-mills.jpg", "alt": "Flour mills on the GT Road at Okara", "tag": "GT Road, Okara", "h3": "GT Road (N-5) commercial belt", "p": "Okara's trading spine. Shops, showrooms, marriage halls, mills and godowns. Frontage in feet is what sets the price here, not covered area.", "rate": "Best for: shops, plazas, godowns" },
-      { "img": "okara-ghausia-masjid.jpg", "alt": "Ghausia Masjid in Katchery Bazar, Okara", "tag": "Katchery Bazar", "h3": "Katchery Bazar &amp; the mandi belt", "p": "Dense, busy, and the highest per-marla commercial rates in the district. Small shops here trade on footfall alone.", "rate": "Best for: retail shops, upper-floor offices" },
-      { "img": "okara-district-library.jpg", "alt": "District Library building in Okara", "tag": "District Library, Okara", "h3": "Government Colony &amp; library side", "p": "Older government housing and the surrounding colonies. Sensible prices, walkable to offices, and a reliable tenant pool.", "rate": "Best for: budget houses, first purchase" },
-      { "img": "okara-cricket-stadium.jpg", "alt": "Okara cricket stadium pavilion building", "tag": "Okara Stadium", "h3": "Stadium Road &amp; Canal View", "p": "Newer development along the canal side. Canal View and Canal Garden attract buyers who want a plot rather than an old house.", "rate": "Best for: 3&ndash;10 marla plots, new build" },
-      { "img": "okara-aziz-housing-masjid.jpg", "alt": "Jamia Masjid Ghausia in Aziz Housing Scheme, Okara", "tag": "Aziz Housing Scheme", "h3": "Private housing schemes", "p": "Aziz Housing Scheme, Gulberg City, Al Kheer City, Al Rehman Town, Saad City, Haider Town and Mehboob Town &mdash; we deal in all of them.", "rate": "Best for: instalment plots, new construction" },
-      { "img": "okara-railway-station.jpg", "alt": "Passengers outside the brick arches of Okara Railway Station", "tag": "Okara Railway Station", "h3": "Railway Road &amp; station quarter", "p": "Colonial-era brickwork, tight lanes and constant movement. Mixed-use property that suits shops below and rented portions above.", "rate": "Best for: mixed-use, rental portions" },
-      { "img": "depalpur-city.jpg", "alt": "A street in Depalpur city, Okara District", "tag": "Depalpur city", "h3": "Depalpur tehsil", "p": "One of the oldest towns in Punjab, and still the district's second market. Depalpur, Basirpur, Haveli Lakha and Hujra Shah Muqeem.", "rate": "Best for: town houses, farmland, shops" },
-      { "img": "renala-kalma-chowk.jpg", "alt": "Kalma Chowk in Renala Khurd, Okara District", "tag": "Kalma Chowk, Renala Khurd", "h3": "Renala Khurd tehsil", "p": "On the Okara&ndash;Lahore side of the district, with the fruit farms and the old hydel works. Khalid Town and Green City are the schemes buyers ask for.", "rate": "Best for: plots, farmland, roadside commercial" }
+      {
+        "img": "okara-cantt-cmh.jpg",
+        "alt": "Grounds of the Combined Military Hospital in Okara Cantonment",
+        "tag": "Okara Cantt",
+        "h3": "Okara Cantt (Civil Area)",
+        "p": "The quietest, greenest address in the city. Wide streets, mature trees, cantonment upkeep. Buyers here look for 10 marla and 1 kanal.",
+        "rate": "Premium end of the Okara market"
+      },
+      {
+        "img": "okara-company-bagh-chowk.jpg",
+        "alt": "Company Bagh Chowk in central Okara at dusk",
+        "tag": "Company Bagh Chowk",
+        "h3": "Company Bagh & Civil Lines",
+        "p": "Old Okara at its most central. Walk to the courts, schools and the main bazaar. Older houses, generous plot sizes, strong rental demand.",
+        "rate": "Best for: rental income, city-centre living"
+      },
+      {
+        "img": "okara-jinnah-park-chowk.jpg",
+        "alt": "Jinnah Park Chowk, Okara, on a clear winter morning",
+        "tag": "Jinnah Park Chowk",
+        "h3": "Jinnah Park & Depalpur Road",
+        "p": "Families pay for the park and the schools around it. Depalpur Road behind it has been the city's steadiest growth direction.",
+        "rate": "Best for: 5–10 marla family homes"
+      },
+      {
+        "img": "okara-zaman-park.jpg",
+        "alt": "Entrance gate of Mian Muhammad Zaman Public Park, Okara",
+        "tag": "Zaman Park, Okara",
+        "h3": "Model Town Okara",
+        "p": "Planned society off the Lahore–Okara Road with small entry-level plots through to 1 kanal. Popular with first-time buyers and instalment plans.",
+        "rate": "Best for: 2.5–10 marla plots"
+      },
+      {
+        "img": "okara-gt-road-mills.jpg",
+        "alt": "Flour mills on the GT Road at Okara",
+        "tag": "GT Road, Okara",
+        "h3": "GT Road (N-5) commercial belt",
+        "p": "Okara's trading spine. Shops, showrooms, marriage halls, mills and godowns. Frontage in feet is what sets the price here, not covered area.",
+        "rate": "Best for: shops, plazas, godowns"
+      },
+      {
+        "img": "okara-ghausia-masjid.jpg",
+        "alt": "Ghausia Masjid in Katchery Bazar, Okara",
+        "tag": "Katchery Bazar",
+        "h3": "Katchery Bazar & the mandi belt",
+        "p": "Dense, busy, and the highest per-marla commercial rates in the district. Small shops here trade on footfall alone.",
+        "rate": "Best for: retail shops, upper-floor offices"
+      },
+      {
+        "img": "okara-district-library.jpg",
+        "alt": "District Library building in Okara",
+        "tag": "District Library, Okara",
+        "h3": "Government Colony & library side",
+        "p": "Older government housing and the surrounding colonies. Sensible prices, walkable to offices, and a reliable tenant pool.",
+        "rate": "Best for: budget houses, first purchase"
+      },
+      {
+        "img": "okara-cricket-stadium.jpg",
+        "alt": "Okara cricket stadium pavilion building",
+        "tag": "Okara Stadium",
+        "h3": "Stadium Road & Canal View",
+        "p": "Newer development along the canal side. Canal View and Canal Garden attract buyers who want a plot rather than an old house.",
+        "rate": "Best for: 3–10 marla plots, new build"
+      },
+      {
+        "img": "okara-aziz-housing-masjid.jpg",
+        "alt": "Jamia Masjid Ghausia in Aziz Housing Scheme, Okara",
+        "tag": "Aziz Housing Scheme",
+        "h3": "Private housing schemes",
+        "p": "Aziz Housing Scheme, Gulberg City, Al Kheer City, Al Rehman Town, Saad City, Haider Town and Mehboob Town — we deal in all of them.",
+        "rate": "Best for: instalment plots, new construction"
+      },
+      {
+        "img": "okara-railway-station.jpg",
+        "alt": "Passengers outside the brick arches of Okara Railway Station",
+        "tag": "Okara Railway Station",
+        "h3": "Railway Road & station quarter",
+        "p": "Colonial-era brickwork, tight lanes and constant movement. Mixed-use property that suits shops below and rented portions above.",
+        "rate": "Best for: mixed-use, rental portions"
+      },
+      {
+        "img": "depalpur-city.jpg",
+        "alt": "A street in Depalpur city, Okara District",
+        "tag": "Depalpur city",
+        "h3": "Depalpur tehsil",
+        "p": "One of the oldest towns in Punjab, and still the district's second market. Depalpur, Basirpur, Haveli Lakha and Hujra Shah Muqeem.",
+        "rate": "Best for: town houses, farmland, shops"
+      },
+      {
+        "img": "renala-kalma-chowk.jpg",
+        "alt": "Kalma Chowk in Renala Khurd, Okara District",
+        "tag": "Kalma Chowk, Renala Khurd",
+        "h3": "Renala Khurd tehsil",
+        "p": "On the Okara–Lahore side of the district, with the fruit farms and the old hydel works. Khalid Town and Green City are the schemes buyers ask for.",
+        "rate": "Best for: plots, farmland, roadside commercial"
+      }
     ]
   },
-
   "listings": {
     "eyebrow": "What we deal in",
     "h2": "Property we are actively buying and selling in Okara",
-    "lede": "Filter by what you're after. Prices are the ranges we're currently seeing in each area &mdash; the exact property, plot number and final figure are confirmed on a call.",
+    "lede": "Filter by what you're after. Prices are the ranges we're currently seeing in each area — the exact property, plot number and final figure are confirmed on a call.",
     "filterLabel": "Filter properties by type",
     "filters": [
-      { "key": "all", "label": "Everything" },
-      { "key": "house", "label": "Houses" },
-      { "key": "plot", "label": "Plots" },
-      { "key": "commercial", "label": "Commercial" },
-      { "key": "land", "label": "Agricultural land" },
-      { "key": "rent", "label": "To rent" }
+      {
+        "key": "all",
+        "label": "Everything"
+      },
+      {
+        "key": "house",
+        "label": "Houses"
+      },
+      {
+        "key": "plot",
+        "label": "Plots"
+      },
+      {
+        "key": "commercial",
+        "label": "Commercial"
+      },
+      {
+        "key": "land",
+        "label": "Agricultural land"
+      },
+      {
+        "key": "rent",
+        "label": "To rent"
+      }
     ],
     "ask": "Ask on WhatsApp",
     "call": "Call",
     "cards": [
-      { "type": "house", "img": "okara-cantt-cmh.jpg", "alt": "Okara Cantonment, where we deal in kanal houses", "badge": "House", "tag": "Okara Cantt", "h3": "1 kanal house &mdash; Okara Cantt Civil Area", "loc": "Civil Area, Okara Cantonment", "specs": ["1 kanal", "4&ndash;6 bed", "Double storey", "Wide street"], "price": "PKR 1.5 &ndash; 4 crore", "priceNote": "Typical asking range in this area", "wa": "I'm interested in a 1 kanal house in Okara Cantt." },
-      { "type": "house", "img": "okara-cricket-stadium.jpg", "alt": "Stadium Road area of Okara near Canal View", "badge": "House", "tag": "Okara Stadium", "h3": "10 marla house &mdash; Canal View / Canal Road", "loc": "Canal Road, Okara", "specs": ["10 marla", "3&ndash;5 bed", "Car porch", "New build"], "price": "PKR 65 lakh &ndash; 2.5 crore", "priceNote": "Depends heavily on construction quality", "wa": "I'm interested in a 10 marla house near Canal Road, Okara." },
-      { "type": "house", "img": "okara-jinnah-park-chowk.jpg", "alt": "Jinnah Park Chowk on the Depalpur Road side of Okara", "badge": "House", "tag": "Jinnah Park Chowk", "h3": "5 marla house &mdash; Depalpur Road &amp; Saad City", "loc": "Depalpur Road, Okara", "specs": ["5 marla", "3 bed", "Double storey", "Gas &amp; water"], "price": "PKR 70 lakh &ndash; 1 crore", "priceNote": "The city's most-traded house size", "wa": "I'm interested in a 5 marla house in Okara." },
-      { "type": "house", "img": "okara-municipal-office.jpg", "alt": "Tehsil Municipal Administration office, Baldia Okara", "badge": "House", "tag": "Baldia Okara", "h3": "2&ndash;3 marla house &mdash; Faisal Colony &amp; Ghaziabad", "loc": "Faisal Colony, Okara", "specs": ["2&ndash;3 marla", "1&ndash;2 bed", "Entry level", "Ready to move"], "price": "PKR 25 &ndash; 55 lakh", "priceNote": "Where most first purchases happen", "wa": "I'm looking for a small house in Okara under 50 lakh." },
-      { "type": "plot", "img": "okara-zaman-park.jpg", "alt": "Mian Muhammad Zaman Public Park, near the Model Town side of Okara", "badge": "Plot", "tag": "Zaman Park, Okara", "h3": "5 marla residential plot &mdash; Model Town Okara", "loc": "Lahore&ndash;Okara Road", "specs": ["5 marla", "Instalments", "Developed", "Corner available"], "price": "PKR 15 &ndash; 45 lakh", "priceNote": "Corner and boulevard plots sit at the top", "wa": "I'm interested in a 5 marla plot in Model Town Okara." },
-      { "type": "plot", "img": "okara-public-park-2.jpg", "alt": "Okara Public Park in the evening", "badge": "Plot", "tag": "Okara Public Park", "h3": "10 marla plot &mdash; Gulberg City &amp; Al Kheer City", "loc": "Okara city schemes", "specs": ["10 marla", "Possession", "Boundary wall", "Utilities laid"], "price": "PKR 20 &ndash; 90 lakh", "priceNote": "Wide range &mdash; development stage decides it", "wa": "I'm interested in a 10 marla plot in Okara." },
-      { "type": "plot", "img": "okara-city-entrance.jpg", "alt": "Traffic entering Okara from the bypass on the GT Road", "badge": "Plot", "tag": "Okara Bypass", "h3": "2.5&ndash;3 marla plot &mdash; Jawad Avenue &amp; Mehboob Town", "loc": "Jawad Avenue &amp; GT Road schemes", "specs": ["2.5&ndash;3 marla", "Lowest entry", "Easy instalments", "Files available"], "price": "PKR 7.5 &ndash; 15 lakh", "priceNote": "The cheapest way into Okara property", "wa": "I'm interested in a small plot in Okara on instalments." },
-      { "type": "commercial", "img": "okara-gt-road-mills.jpg", "alt": "Commercial frontage and mills on the GT Road at Okara", "badge": "Commercial", "tag": "GT Road, Okara", "h3": "Main-road shop &mdash; GT Road (N-5)", "loc": "GT Road, Okara", "specs": ["1&ndash;3 marla", "Road frontage", "Ground floor", "Rental yield"], "price": "Rate on request", "priceNote": "Frontage feet, not covered area, sets the price", "wa": "I'm looking for a commercial shop on GT Road, Okara." },
-      { "type": "commercial", "img": "okara-ghausia-masjid.jpg", "alt": "Katchery Bazar, Okara, seen from the street", "badge": "Commercial", "tag": "Katchery Bazar", "h3": "Bazaar shop &amp; upper-floor office &mdash; Katchery Bazar", "loc": "Katchery Bazar, Okara", "specs": ["Small units", "High footfall", "Near courts", "Let quickly"], "price": "Rate on request", "priceNote": "Highest per-marla rates in the district", "wa": "I'm looking for a shop in Katchery Bazar, Okara." },
-      { "type": "land", "img": "okara-green-chak-42.jpg", "alt": "Green fields at Chak 42 near Okara", "badge": "Land", "tag": "Chak 42, Okara", "h3": "Cultivable land &mdash; Okara chak roads", "loc": "Okara tehsil chaks", "specs": ["Per acre", "Canal irrigated", "Tube well", "Road access"], "price": "Rate on request", "priceNote": "Priced per acre, by soil and water access", "wa": "I'm interested in agricultural land near Okara." },
-      { "type": "land", "img": "okara-farmland-chak-56.jpg", "alt": "Cultivated fields at Chak 56/2-L on the edge of Okara", "badge": "Land", "tag": "Chak 56/2-L", "h3": "Farm &amp; rural land &mdash; Depalpur &amp; Renala Khurd", "loc": "Depalpur &amp; Renala Khurd tehsils", "specs": ["Acres", "Fard checked", "Khasra verified", "Farmhouse sites"], "price": "Rate on request", "priceNote": "Record verified before any payment", "wa": "I'm interested in farmland in Depalpur or Renala Khurd." },
-      { "type": "rent", "img": "okara-railway-station-2.jpg", "alt": "Okara Railway Station building", "badge": "To rent", "tag": "Okara Railway Station", "h3": "Homes &amp; offices to rent &mdash; across Okara city", "loc": "Railway Road, Civil Lines &amp; Cantt", "specs": ["Family portions", "Full houses", "Offices", "Shops"], "price": "Monthly rent on request", "priceNote": "Written agreement on stamp paper", "wa": "I'm looking for a property to rent in Okara." }
+      {
+        "type": "house",
+        "img": "okara-cantt-cmh.jpg",
+        "alt": "Okara Cantonment, where we deal in kanal houses",
+        "badge": "House",
+        "tag": "Okara Cantt",
+        "h3": "1 kanal house — Okara Cantt Civil Area",
+        "loc": "Civil Area, Okara Cantonment",
+        "specs": [
+          "1 kanal",
+          "4–6 bed",
+          "Double storey",
+          "Wide street"
+        ],
+        "price": "PKR 1.5 – 4 crore",
+        "priceNote": "Typical asking range in this area",
+        "wa": "I'm interested in a 1 kanal house in Okara Cantt."
+      },
+      {
+        "type": "house",
+        "img": "okara-cricket-stadium.jpg",
+        "alt": "Stadium Road area of Okara near Canal View",
+        "badge": "House",
+        "tag": "Okara Stadium",
+        "h3": "10 marla house — Canal View / Canal Road",
+        "loc": "Canal Road, Okara",
+        "specs": [
+          "10 marla",
+          "3–5 bed",
+          "Car porch",
+          "New build"
+        ],
+        "price": "PKR 65 lakh – 2.5 crore",
+        "priceNote": "Depends heavily on construction quality",
+        "wa": "I'm interested in a 10 marla house near Canal Road, Okara."
+      },
+      {
+        "type": "house",
+        "img": "okara-jinnah-park-chowk.jpg",
+        "alt": "Jinnah Park Chowk on the Depalpur Road side of Okara",
+        "badge": "House",
+        "tag": "Jinnah Park Chowk",
+        "h3": "5 marla house — Depalpur Road & Saad City",
+        "loc": "Depalpur Road, Okara",
+        "specs": [
+          "5 marla",
+          "3 bed",
+          "Double storey",
+          "Gas & water"
+        ],
+        "price": "PKR 70 lakh – 1 crore",
+        "priceNote": "The city's most-traded house size",
+        "wa": "I'm interested in a 5 marla house in Okara."
+      },
+      {
+        "type": "house",
+        "img": "okara-municipal-office.jpg",
+        "alt": "Tehsil Municipal Administration office, Baldia Okara",
+        "badge": "House",
+        "tag": "Baldia Okara",
+        "h3": "2–3 marla house — Faisal Colony & Ghaziabad",
+        "loc": "Faisal Colony, Okara",
+        "specs": [
+          "2–3 marla",
+          "1–2 bed",
+          "Entry level",
+          "Ready to move"
+        ],
+        "price": "PKR 25 – 55 lakh",
+        "priceNote": "Where most first purchases happen",
+        "wa": "I'm looking for a small house in Okara under 50 lakh."
+      },
+      {
+        "type": "plot",
+        "img": "okara-zaman-park.jpg",
+        "alt": "Mian Muhammad Zaman Public Park, near the Model Town side of Okara",
+        "badge": "Plot",
+        "tag": "Zaman Park, Okara",
+        "h3": "5 marla residential plot — Model Town Okara",
+        "loc": "Lahore–Okara Road",
+        "specs": [
+          "5 marla",
+          "Instalments",
+          "Developed",
+          "Corner available"
+        ],
+        "price": "PKR 15 – 45 lakh",
+        "priceNote": "Corner and boulevard plots sit at the top",
+        "wa": "I'm interested in a 5 marla plot in Model Town Okara."
+      },
+      {
+        "type": "plot",
+        "img": "okara-public-park-2.jpg",
+        "alt": "Okara Public Park in the evening",
+        "badge": "Plot",
+        "tag": "Okara Public Park",
+        "h3": "10 marla plot — Gulberg City & Al Kheer City",
+        "loc": "Okara city schemes",
+        "specs": [
+          "10 marla",
+          "Possession",
+          "Boundary wall",
+          "Utilities laid"
+        ],
+        "price": "PKR 20 – 90 lakh",
+        "priceNote": "Wide range — development stage decides it",
+        "wa": "I'm interested in a 10 marla plot in Okara."
+      },
+      {
+        "type": "plot",
+        "img": "okara-city-entrance.jpg",
+        "alt": "Traffic entering Okara from the bypass on the GT Road",
+        "badge": "Plot",
+        "tag": "Okara Bypass",
+        "h3": "2.5–3 marla plot — Jawad Avenue & Mehboob Town",
+        "loc": "Jawad Avenue & GT Road schemes",
+        "specs": [
+          "2.5–3 marla",
+          "Lowest entry",
+          "Easy instalments",
+          "Files available"
+        ],
+        "price": "PKR 7.5 – 15 lakh",
+        "priceNote": "The cheapest way into Okara property",
+        "wa": "I'm interested in a small plot in Okara on instalments."
+      },
+      {
+        "type": "commercial",
+        "img": "okara-gt-road-mills.jpg",
+        "alt": "Commercial frontage and mills on the GT Road at Okara",
+        "badge": "Commercial",
+        "tag": "GT Road, Okara",
+        "h3": "Main-road shop — GT Road (N-5)",
+        "loc": "GT Road, Okara",
+        "specs": [
+          "1–3 marla",
+          "Road frontage",
+          "Ground floor",
+          "Rental yield"
+        ],
+        "price": "Rate on request",
+        "priceNote": "Frontage feet, not covered area, sets the price",
+        "wa": "I'm looking for a commercial shop on GT Road, Okara."
+      },
+      {
+        "type": "commercial",
+        "img": "okara-ghausia-masjid.jpg",
+        "alt": "Katchery Bazar, Okara, seen from the street",
+        "badge": "Commercial",
+        "tag": "Katchery Bazar",
+        "h3": "Bazaar shop & upper-floor office — Katchery Bazar",
+        "loc": "Katchery Bazar, Okara",
+        "specs": [
+          "Small units",
+          "High footfall",
+          "Near courts",
+          "Let quickly"
+        ],
+        "price": "Rate on request",
+        "priceNote": "Highest per-marla rates in the district",
+        "wa": "I'm looking for a shop in Katchery Bazar, Okara."
+      },
+      {
+        "type": "land",
+        "img": "okara-green-chak-42.jpg",
+        "alt": "Green fields at Chak 42 near Okara",
+        "badge": "Land",
+        "tag": "Chak 42, Okara",
+        "h3": "Cultivable land — Okara chak roads",
+        "loc": "Okara tehsil chaks",
+        "specs": [
+          "Per acre",
+          "Canal irrigated",
+          "Tube well",
+          "Road access"
+        ],
+        "price": "Rate on request",
+        "priceNote": "Priced per acre, by soil and water access",
+        "wa": "I'm interested in agricultural land near Okara."
+      },
+      {
+        "type": "land",
+        "img": "okara-farmland-chak-56.jpg",
+        "alt": "Cultivated fields at Chak 56/2-L on the edge of Okara",
+        "badge": "Land",
+        "tag": "Chak 56/2-L",
+        "h3": "Farm & rural land — Depalpur & Renala Khurd",
+        "loc": "Depalpur & Renala Khurd tehsils",
+        "specs": [
+          "Acres",
+          "Fard checked",
+          "Khasra verified",
+          "Farmhouse sites"
+        ],
+        "price": "Rate on request",
+        "priceNote": "Record verified before any payment",
+        "wa": "I'm interested in farmland in Depalpur or Renala Khurd."
+      },
+      {
+        "type": "rent",
+        "img": "okara-railway-station-2.jpg",
+        "alt": "Okara Railway Station building",
+        "badge": "To rent",
+        "tag": "Okara Railway Station",
+        "h3": "Homes & offices to rent — across Okara city",
+        "loc": "Railway Road, Civil Lines & Cantt",
+        "specs": [
+          "Family portions",
+          "Full houses",
+          "Offices",
+          "Shops"
+        ],
+        "price": "Monthly rent on request",
+        "priceNote": "Written agreement on stamp paper",
+        "wa": "I'm looking for a property to rent in Okara."
+      }
     ],
     "noteStrong": "About these photographs and prices.",
-    "noteText": "The images above show the Okara neighbourhoods themselves &mdash; real chowks, parks, bazaars and landmarks around the city &mdash; not the individual properties. Prices are indicative asking ranges for each area as at August 2026, compiled from public listings and our own transactions. Available stock changes daily; message us for today's list with photos, plot numbers and final figures."
+    "noteText": "The images above show the Okara neighbourhoods themselves — real chowks, parks, bazaars and landmarks around the city — not the individual properties. Prices are indicative asking ranges for each area as at August 2026, compiled from public listings and our own transactions. Available stock changes daily; message us for today's list with photos, plot numbers and final figures."
   },
-
   "prices": {
     "eyebrow": "Okara price guide",
     "h2": "What property actually costs in Okara right now",
-    "lede": "A straight answer to the question everyone calls with. Use it to sanity-check a quoted price &mdash; then call us for the figure on a specific property.",
+    "lede": "A straight answer to the question everyone calls with. Use it to sanity-check a quoted price — then call us for the figure on a specific property.",
     "caption": "Indicative asking ranges for Okara District, reviewed August 2026. Compiled from public listing portals and our own dealings. Final price depends on the exact street, plot orientation, construction quality and whether utilities are connected.",
-    "cols": ["Property", "Size", "Indicative asking range", "Where you'll find it"],
+    "cols": [
+      "Property",
+      "Size",
+      "Indicative asking range",
+      "Where you'll find it"
+    ],
     "rows": [
-      ["Residential plot", "2.5&ndash;3 marla", "PKR 7.5 &ndash; 15 lakh", "Jawad Avenue, Mehboob Town, Al Kheer City"],
-      ["Residential plot", "5 marla", "PKR 15 &ndash; 45 lakh", "Gulberg City, Al Rehman Town, Model Town"],
-      ["Residential plot", "10 marla", "PKR 20 &ndash; 90 lakh", "Canal View, Model Town, Okara Cantt"],
-      ["Residential plot", "1 kanal", "Rate on request", "Okara Cantt, Canal Road"],
-      ["Built house", "2&ndash;3 marla", "PKR 25 &ndash; 55 lakh", "Faisal Colony, Government Colony, Ghaziabad"],
-      ["Built house", "5 marla", "PKR 70 lakh &ndash; 1 crore", "Saad City, Depalpur Road, Jawad Avenue"],
-      ["Built house", "10 marla", "PKR 65 lakh &ndash; 2.5 crore", "Haider Town, Canal View, Okara Cantt"],
-      ["Built house", "1 kanal", "PKR 1.5 &ndash; 4 crore", "Okara Cantt Civil Area"],
-      ["Commercial shop", "1&ndash;3 marla", "Rate on request", "GT Road, Katchery Bazar, Ghallah Mandi"],
-      ["Agricultural land", "Per acre", "Rate on request", "Okara, Depalpur &amp; Renala Khurd chaks"]
+      [
+        "Residential plot",
+        "2.5–3 marla",
+        "PKR 7.5 – 15 lakh",
+        "Jawad Avenue, Mehboob Town, Al Kheer City"
+      ],
+      [
+        "Residential plot",
+        "5 marla",
+        "PKR 15 – 45 lakh",
+        "Gulberg City, Al Rehman Town, Model Town"
+      ],
+      [
+        "Residential plot",
+        "10 marla",
+        "PKR 20 – 90 lakh",
+        "Canal View, Model Town, Okara Cantt"
+      ],
+      [
+        "Residential plot",
+        "1 kanal",
+        "Rate on request",
+        "Okara Cantt, Canal Road"
+      ],
+      [
+        "Built house",
+        "2–3 marla",
+        "PKR 25 – 55 lakh",
+        "Faisal Colony, Government Colony, Ghaziabad"
+      ],
+      [
+        "Built house",
+        "5 marla",
+        "PKR 70 lakh – 1 crore",
+        "Saad City, Depalpur Road, Jawad Avenue"
+      ],
+      [
+        "Built house",
+        "10 marla",
+        "PKR 65 lakh – 2.5 crore",
+        "Haider Town, Canal View, Okara Cantt"
+      ],
+      [
+        "Built house",
+        "1 kanal",
+        "PKR 1.5 – 4 crore",
+        "Okara Cantt Civil Area"
+      ],
+      [
+        "Commercial shop",
+        "1–3 marla",
+        "Rate on request",
+        "GT Road, Katchery Bazar, Ghallah Mandi"
+      ],
+      [
+        "Agricultural land",
+        "Per acre",
+        "Rate on request",
+        "Okara, Depalpur & Renala Khurd chaks"
+      ]
     ],
     "cards": [
-      { "h3": "What pushes an Okara price up", "list": ["Corner, boulevard or park-facing position", "Street width &mdash; 40 ft beats 25 ft, every time", "Gas connection already in place", "Clear, transferable record with no dispute"] },
-      { "h3": "What pulls it down", "list": ["Undeveloped scheme with no possession date", "Shared or disputed inheritance in the fard", "No independent access road", "Low-lying plot that takes monsoon water"] },
-      { "h3": "Costs on top of the price", "list": ["Stamp duty and registration fee", "Capital value tax and TMA / district fees", "FBR advance tax &mdash; s.236K buyer, s.236C seller", "Society transfer fee and dealer commission"] }
+      {
+        "h3": "What pushes an Okara price up",
+        "list": [
+          "Corner, boulevard or park-facing position",
+          "Street width — 40 ft beats 25 ft, every time",
+          "Gas connection already in place",
+          "Clear, transferable record with no dispute"
+        ]
+      },
+      {
+        "h3": "What pulls it down",
+        "list": [
+          "Undeveloped scheme with no possession date",
+          "Shared or disputed inheritance in the fard",
+          "No independent access road",
+          "Low-lying plot that takes monsoon water"
+        ]
+      },
+      {
+        "h3": "Costs on top of the price",
+        "list": [
+          "Stamp duty and registration fee",
+          "Capital value tax and TMA / district fees",
+          "FBR advance tax — s.236K buyer, s.236C seller",
+          "Society transfer fee and dealer commission"
+        ]
+      }
     ]
   },
-
   "process": {
     "eyebrow": "How it works",
     "h2": "From first call to registry, in five steps",
-    "lede": "Punjab's land record is digitised now. That is good news &mdash; it just means the checks happen in a specific order. Here's the order we follow.",
+    "lede": "Punjab's land record is digitised now. That is good news — it just means the checks happen in a specific order. Here's the order we follow.",
     "steps": [
-      { "h3": "Tell us the brief", "p": "Area, size, budget and timeline. A five-minute call on WhatsApp saves three wasted visits." },
-      { "h3": "See the shortlist", "p": "We show you three or four that genuinely fit, and tell you what's wrong with each one." },
-      { "h3": "Check the record", "p": "Fard malkiat from the Arazi Record Centre, mutation history, society NOC and dues clearance &mdash; before any money moves." },
-      { "h3": "Bayana &amp; agreement", "p": "Token money against a written agreement on stamp paper, with the balance date and penalties spelled out." },
-      { "h3": "Transfer &amp; possession", "p": "Taxes paid, biometric verification done, sale deed registered, keys handed over. We're there for all of it." }
+      {
+        "h3": "Tell us the brief",
+        "p": "Area, size, budget and timeline. A five-minute call on WhatsApp saves three wasted visits."
+      },
+      {
+        "h3": "See the shortlist",
+        "p": "We show you three or four that genuinely fit, and tell you what's wrong with each one."
+      },
+      {
+        "h3": "Check the record",
+        "p": "Fard malkiat from the Arazi Record Centre, mutation history, society NOC and dues clearance — before any money moves."
+      },
+      {
+        "h3": "Bayana & agreement",
+        "p": "Token money against a written agreement on stamp paper, with the balance date and penalties spelled out."
+      },
+      {
+        "h3": "Transfer & possession",
+        "p": "Taxes paid, biometric verification done, sale deed registered, keys handed over. We're there for all of it."
+      }
     ],
     "docs": {
-      "icon": "i-doc", "h3": "Documents to have ready",
-      "list": ["CNIC of buyer and seller (and NICOP for overseas Pakistanis)", "Original title document &mdash; registry, allotment letter or transfer letter", "Fard malkiat / record of rights for the property", "Society or TMA no-objection certificate and dues clearance", "Approved building plan, for constructed property", "Recent utility bills showing no arrears"]
+      "icon": "i-doc",
+      "h3": "Documents to have ready",
+      "list": [
+        "CNIC of buyer and seller (and NICOP for overseas Pakistanis)",
+        "Original title document — registry, allotment letter or transfer letter",
+        "Fard malkiat / record of rights for the property",
+        "Society or TMA no-objection certificate and dues clearance",
+        "Approved building plan, for constructed property",
+        "Recent utility bills showing no arrears"
+      ]
     },
     "checks": {
-      "icon": "i-shield", "h3": "Checks we never skip",
-      "list": ["Seller's name matches the record exactly &mdash; no verbal &ldquo;my brother owns it&rdquo;", "No pending litigation, attachment or bank charge", "Inheritance shares settled where the owner has passed away", "Plot dimensions measured on site against the file", "Access road is legally part of the scheme, not someone's land", "Payment through traceable banking channels"]
+      "icon": "i-shield",
+      "h3": "Checks we never skip",
+      "list": [
+        "Seller's name matches the record exactly — no verbal “my brother owns it”",
+        "No pending litigation, attachment or bank charge",
+        "Inheritance shares settled where the owner has passed away",
+        "Plot dimensions measured on site against the file",
+        "Access road is legally part of the scheme, not someone's land",
+        "Payment through traceable banking channels"
+      ]
     }
   },
-
   "about": {
     "eyebrow": "About us",
     "h2": "An Okara office, run by people from Okara",
     "lede": "Muhammad Properties has been dealing in Okara property since 2010, from an office on the GT Road opposite Azhar Residencies.",
     "paras": [
-      "Okara is not Lahore, and it does not behave like Lahore. It is a district of about 3.5&nbsp;million people across three tehsils &mdash; Okara, Depalpur and Renala Khurd &mdash; built on potato, maize and cotton, on the Sahiwal cattle and Nili-Ravi buffalo herds, and on the trade that moves along the N-5. Prices here are set by which street you are on, whose family is selling, and whether the fard is clean. No portal can tell you that.",
+      "Okara is not Lahore, and it does not behave like Lahore. It is a district of about 3.5 million people across three tehsils — Okara, Depalpur and Renala Khurd — built on potato, maize and cotton, on the Sahiwal cattle and Nili-Ravi buffalo herds, and on the trade that moves along the N-5. Prices here are set by which street you are on, whose family is selling, and whether the fard is clean. No portal can tell you that.",
       "That is the whole job. We give you the local read on a property, we check the record before you commit a rupee, and we stay with the file until the registry is done and the keys are in your hand."
     ],
     "list": [
       "One point of contact from first viewing to final transfer",
       "Record verification through the Arazi Record Centre, every time",
-      "Written agreements on stamp paper &mdash; never a verbal deal",
+      "Written agreements on stamp paper — never a verbal deal",
       "Commission agreed in advance, in writing, with no surprises",
       "Comfortable working with overseas Pakistani buyers and their families here"
     ],
     "cta1": "Visit our office",
     "cta2": "Call +92 305 6847007",
     "figures": [
-      { "img": "okara-railway-station.jpg", "alt": "The brick arches of Okara Railway Station, in use since 1892" },
-      { "img": "okara-jinnah-park.jpg", "alt": "Brick and tilework gateway at Jinnah Park, Okara" },
-      { "img": "okara-public-park.jpg", "alt": "Stonework terraces inside Okara Public Park" }
+      {
+        "img": "okara-railway-station.jpg",
+        "alt": "The brick arches of Okara Railway Station, in use since 1892"
+      },
+      {
+        "img": "okara-jinnah-park.jpg",
+        "alt": "Brick and tilework gateway at Jinnah Park, Okara"
+      },
+      {
+        "img": "okara-public-park.jpg",
+        "alt": "Stonework terraces inside Okara Public Park"
+      }
     ]
   },
-
   "faq": {
     "eyebrow": "Questions",
     "h2": "Okara property, answered plainly",
     "lede": "The questions we're asked on the phone most weeks.",
     "items": [
-      { "q": "How much does a 5 marla house cost in Okara?", "a": ["As at August 2026, 5 marla houses in Okara typically ask between PKR 70 lakh and PKR 1 crore. Areas such as Saad City, Depalpur Road and Jawad Avenue sit in that band. Smaller 2&ndash;3 marla houses in Faisal Colony or Government Colony start around PKR 25 lakh. The final figure turns on street width, construction quality and whether gas is connected."] },
-      { "q": "Which areas of Okara are best for investment?", "a": ["For capital growth, buyers focus on the newer schemes along Canal Road and the Lahore&ndash;Okara Road side &mdash; Canal View, Model Town Okara and Gulberg City &mdash; where plots are still available at development-stage prices. For rental income, the older central areas around Company Bagh, Civil Lines and the Railway Road hold tenants best. Okara Cantt Civil Area is the premium end and holds value, but entry is expensive."] },
-      { "q": "What is a marla, and how does it compare to a kanal or an acre?", "a": ["In Punjab, 1 marla is 225 square feet (25 square yards). 20 marla make 1 kanal, which is 4,500 square feet. 8 kanal make 1 acre. So a 5 marla plot is 1,125 square feet and a 10 marla plot is 2,250 square feet."] },
-      { "q": "What documents do I need to buy property in Okara?", "a": ["You'll need your CNIC (or NICOP if you're an overseas Pakistani), and from the seller: the original title document &mdash; registry, allotment letter or transfer letter &mdash; the fard malkiat or record of rights, a no-objection certificate and dues clearance from the housing society or TMA, the approved building plan for constructed property, and recent clear utility bills.", "We obtain the fard from the Arazi Record Centre and check the mutation history before any payment is made."] },
-      { "q": "What taxes and fees are payable on a property transfer in Punjab?", "a": ["Expect stamp duty, the registration fee, capital value tax, TMA or district fees, and FBR advance tax &mdash; section 236K on the buyer and section 236C on the seller, charged at different rates for filers and non-filers. Housing societies also charge their own transfer fee.", "These rates change with each federal budget and provincial notification, so we confirm the exact amount for your property on the day rather than quoting a stale figure."] },
-      { "q": "Do you deal in agricultural land near Okara?", "a": ["Yes. Okara District is farming country &mdash; it is one of the largest potato-producing districts in Pakistan, and also grows maize, cotton and fodder. We deal in cultivable land along the chak roads and canal distributaries in all three tehsils: Okara, Depalpur and Renala Khurd. Land is priced per acre, and we verify the khasra numbers, the watercourse rights, the tube well and the access road before you commit."] },
-      { "q": "Can overseas Pakistanis buy property in Okara through you?", "a": ["Yes, and a good share of our work is exactly this. We send video walkthroughs and record checks over WhatsApp, deal with your nominated family member here, and can work with a registered power of attorney where you cannot travel. We insist on payment through banking channels and on you seeing the fard yourself before anything is signed."] },
-      { "q": "How long does a property sale take in Okara?", "a": ["Where the record is clean and both parties are ready, four to six weeks from bayana to registry is normal. Add time if the property is inherited and shares need settling, if a society NOC is slow, or if the seller is abroad and a power of attorney has to be attested. We tell you at the outset which of these applies to your file."] },
-      { "q": "Do you charge a commission, and how much?", "a": ["Yes &mdash; property dealing in Okara works on commission, and we agree it in writing before we start rather than raising it at the closing table. What we charge depends on whether it is a sale, a purchase or a rental, and on the value of the property. Ask us on the first call and you will get a straight number."] },
-      { "q": "Which areas does Muhammad Properties cover?", "a": ["All of Okara District. In the city that means Okara Cantt, Civil Lines, Company Bagh, Katchery Bazar, Government Colony, Faisal Colony, Model Town, Jawad Avenue, Canal View and Canal Road, Gulberg City, Al Kheer City, Al Rehman Town, Aziz Housing Scheme, Saad City, Haider Town, Mehboob Town and the GT Road belt. Outside the city we cover Depalpur, Basirpur, Haveli Lakha, Hujra Shah Muqeem, Renala Khurd and the surrounding chaks."] },
-      { "q": "Do you handle rentals as well as sales?", "a": ["Yes &mdash; family houses, upper portions, bachelor accommodation, offices and shops. We screen tenants, support police verification, and put the tenancy on stamp paper with the rent, increment and notice period written down. It costs a little more at the start and saves a great deal later."] },
-      { "q": "Where is your office and when are you open?", "a": ["We are on the GT Road in Okara, opposite Azhar Residencies, open Monday to Saturday from 9am to 7pm. Call or WhatsApp +92 305 6847007, or email info@muhammadproperties.online. If you're travelling in from out of town, message first and we'll have the shortlist ready when you arrive."] }
+      {
+        "q": "How much does a 5 marla house cost in Okara?",
+        "a": [
+          "As at August 2026, 5 marla houses in Okara typically ask between PKR 70 lakh and PKR 1 crore. Areas such as Saad City, Depalpur Road and Jawad Avenue sit in that band. Smaller 2–3 marla houses in Faisal Colony or Government Colony start around PKR 25 lakh. The final figure turns on street width, construction quality and whether gas is connected."
+        ]
+      },
+      {
+        "q": "Which areas of Okara are best for investment?",
+        "a": [
+          "For capital growth, buyers focus on the newer schemes along Canal Road and the Lahore–Okara Road side — Canal View, Model Town Okara and Gulberg City — where plots are still available at development-stage prices. For rental income, the older central areas around Company Bagh, Civil Lines and the Railway Road hold tenants best. Okara Cantt Civil Area is the premium end and holds value, but entry is expensive."
+        ]
+      },
+      {
+        "q": "What is a marla, and how does it compare to a kanal or an acre?",
+        "a": [
+          "In Punjab, 1 marla is 225 square feet (25 square yards). 20 marla make 1 kanal, which is 4,500 square feet. 8 kanal make 1 acre. So a 5 marla plot is 1,125 square feet and a 10 marla plot is 2,250 square feet."
+        ]
+      },
+      {
+        "q": "What documents do I need to buy property in Okara?",
+        "a": [
+          "You'll need your CNIC (or NICOP if you're an overseas Pakistani), and from the seller: the original title document — registry, allotment letter or transfer letter — the fard malkiat or record of rights, a no-objection certificate and dues clearance from the housing society or TMA, the approved building plan for constructed property, and recent clear utility bills.",
+          "We obtain the fard from the Arazi Record Centre and check the mutation history before any payment is made."
+        ]
+      },
+      {
+        "q": "What taxes and fees are payable on a property transfer in Punjab?",
+        "a": [
+          "Expect stamp duty, the registration fee, capital value tax, TMA or district fees, and FBR advance tax — section 236K on the buyer and section 236C on the seller, charged at different rates for filers and non-filers. Housing societies also charge their own transfer fee.",
+          "These rates change with each federal budget and provincial notification, so we confirm the exact amount for your property on the day rather than quoting a stale figure."
+        ]
+      },
+      {
+        "q": "Do you deal in agricultural land near Okara?",
+        "a": [
+          "Yes. Okara District is farming country — it is one of the largest potato-producing districts in Pakistan, and also grows maize, cotton and fodder. We deal in cultivable land along the chak roads and canal distributaries in all three tehsils: Okara, Depalpur and Renala Khurd. Land is priced per acre, and we verify the khasra numbers, the watercourse rights, the tube well and the access road before you commit."
+        ]
+      },
+      {
+        "q": "Can overseas Pakistanis buy property in Okara through you?",
+        "a": [
+          "Yes, and a good share of our work is exactly this. We send video walkthroughs and record checks over WhatsApp, deal with your nominated family member here, and can work with a registered power of attorney where you cannot travel. We insist on payment through banking channels and on you seeing the fard yourself before anything is signed."
+        ]
+      },
+      {
+        "q": "How long does a property sale take in Okara?",
+        "a": [
+          "Where the record is clean and both parties are ready, four to six weeks from bayana to registry is normal. Add time if the property is inherited and shares need settling, if a society NOC is slow, or if the seller is abroad and a power of attorney has to be attested. We tell you at the outset which of these applies to your file."
+        ]
+      },
+      {
+        "q": "Do you charge a commission, and how much?",
+        "a": [
+          "Yes — property dealing in Okara works on commission, and we agree it in writing before we start rather than raising it at the closing table. What we charge depends on whether it is a sale, a purchase or a rental, and on the value of the property. Ask us on the first call and you will get a straight number."
+        ]
+      },
+      {
+        "q": "Which areas does Muhammad Properties cover?",
+        "a": [
+          "All of Okara District. In the city that means Okara Cantt, Civil Lines, Company Bagh, Katchery Bazar, Government Colony, Faisal Colony, Model Town, Jawad Avenue, Canal View and Canal Road, Gulberg City, Al Kheer City, Al Rehman Town, Aziz Housing Scheme, Saad City, Haider Town, Mehboob Town and the GT Road belt. Outside the city we cover Depalpur, Basirpur, Haveli Lakha, Hujra Shah Muqeem, Renala Khurd and the surrounding chaks."
+        ]
+      },
+      {
+        "q": "Do you handle rentals as well as sales?",
+        "a": [
+          "Yes — family houses, upper portions, bachelor accommodation, offices and shops. We screen tenants, support police verification, and put the tenancy on stamp paper with the rent, increment and notice period written down. It costs a little more at the start and saves a great deal later."
+        ]
+      },
+      {
+        "q": "Where is your office and when are you open?",
+        "a": [
+          "We are on the GT Road in Okara, opposite Azhar Residencies, open Monday to Saturday from 9am to 7pm. Call or WhatsApp +92 305 6847007, or email info@muhammadproperties.online. If you're travelling in from out of town, message first and we'll have the shortlist ready when you arrive."
+        ]
+      }
     ]
   },
-
   "contact": {
     "eyebrow": "Get in touch",
     "h2": "Talk to an Okara dealer today",
@@ -285,27 +859,44 @@
     "officeH3": "Our office",
     "addressLabel": "Address",
     "address": "Opposite Azhar Residencies, GT Road, Okara 56300, Punjab, Pakistan",
-    "phoneLabel": "Phone &amp; WhatsApp",
+    "phoneLabel": "Phone & WhatsApp",
     "emailLabel": "Email",
     "hoursLabel": "Opening hours",
-    "hours": "Monday&ndash;Saturday, 9:00am&ndash;7:00pm<br>Sunday: by appointment",
+    "hours": [
+      "Monday–Saturday, 9:00am–7:00pm",
+      "Sunday: by appointment"
+    ],
     "formH3": "Send us your requirement",
-    "formNote": "This form opens WhatsApp with your message ready to send &mdash; nothing is stored on this website.",
+    "formNote": "This form opens WhatsApp with your message ready to send — nothing is stored on this website.",
     "nameLabel": "Your name",
     "namePlaceholder": "e.g. Ahmed Raza",
     "phoneFieldLabel": "Phone number",
     "phonePlaceholder": "03xx xxxxxxx",
     "purposeLabel": "I want to",
-    "purposeOptions": ["Buy a property", "Sell a property", "Rent a property", "Get a valuation", "Ask about paperwork"],
+    "purposeOptions": [
+      "Buy a property",
+      "Sell a property",
+      "Rent a property",
+      "Get a valuation",
+      "Ask about paperwork"
+    ],
     "areaFieldLabel": "Area of interest",
-    "areaOptions": ["Okara city", "Okara Cantt", "Model Town / Canal View", "GT Road commercial", "Depalpur", "Renala Khurd", "Agricultural land", "Not sure yet"],
+    "areaOptions": [
+      "Okara city",
+      "Okara Cantt",
+      "Model Town / Canal View",
+      "GT Road commercial",
+      "Depalpur",
+      "Renala Khurd",
+      "Agricultural land",
+      "Not sure yet"
+    ],
     "detailsLabel": "Details",
     "detailsPlaceholder": "e.g. Looking for a 5 marla house near Depalpur Road, budget up to 90 lakh, ready to move within 2 months.",
     "submit": "Open WhatsApp with this message",
     "consent": "We only use your details to answer your enquiry. No newsletters, no selling your number on.",
     "statusOk": "Opening WhatsApp with your message — press send there to reach us."
   },
-
   "wa": {
     "greeting": "Assalam-o-Alaikum Muhammad Properties,",
     "searchIntro": "I am looking for a property in Okara:",
@@ -322,56 +913,100 @@
     "sentFrom": "(Sent from muhammadproperties.online)",
     "fabIntro": "Assalam-o-Alaikum, I'd like to ask about a property in Okara."
   },
-
   "credits": {
     "h2": "Photograph credits",
     "intro": "Every photograph on this site is a real, human-taken picture of Okara District, used under Creative Commons licences from Wikimedia Commons. No stock housing photography and no AI-generated imagery is used anywhere on this website.",
     "items": [
-      "Sunset near Okara &mdash; JunaidAlam, CC BY-SA 4.0",
-      "Okara Railway Station &mdash; Fahads1982, CC BY-SA 4.0",
-      "Mian Muhammad Zaman Public Park &amp; Jinnah Park, Okara &mdash; Ali Bhai123, CC BY-SA 4.0",
-      "Depalpur city &mdash; MuhammadKhan1, CC BY-SA 4.0",
-      "Company Bagh Chowk, Jinnah Park Chowk, District Library, Katchery Bazar, GT Road, Baldia Okara, Okara Public Park, Okara Cantt CMH, Aziz Housing Scheme, Chak 56/2-L &mdash; &ldquo;Sunni Person&rdquo;, CC BY-SA 3.0",
-      "Okara cricket stadium, Kalma Chowk Renala Khurd &mdash; khadim-un-nabi Rao, CC BY-SA 3.0",
-      "Okara bypass entrance, Green Okara Chak 42 &mdash; Panoramio contributors via Wikimedia Commons, CC BY-SA 3.0"
+      "Sunset near Okara — JunaidAlam, CC BY-SA 4.0",
+      "Okara Railway Station — Fahads1982, CC BY-SA 4.0",
+      "Mian Muhammad Zaman Public Park & Jinnah Park, Okara — Ali Bhai123, CC BY-SA 4.0",
+      "Depalpur city — MuhammadKhan1, CC BY-SA 4.0",
+      "Company Bagh Chowk, Jinnah Park Chowk, District Library, Katchery Bazar, GT Road, Baldia Okara, Okara Public Park, Okara Cantt CMH, Aziz Housing Scheme, Chak 56/2-L — “Sunni Person”, CC BY-SA 3.0",
+      "Okara cricket stadium, Kalma Chowk Renala Khurd — khadim-un-nabi Rao, CC BY-SA 3.0",
+      "Okara bypass entrance, Green Okara Chak 42 — Panoramio contributors via Wikimedia Commons, CC BY-SA 3.0"
     ],
     "sourcePrefix": "Source:",
-    "sourceCat1": "Wikimedia Commons &mdash; Category: Okara",
+    "sourceCat1": "Wikimedia Commons — Category: Okara",
     "sourceAnd": "and",
     "sourceCat2": "Category: Okara District"
   },
-
   "footer": {
     "about": "Property dealers based on the GT Road in Okara, Punjab. Buying, selling and renting houses, plots, shops and agricultural land across Okara District since 2010.",
-    "tags": ["Okara City", "Okara Cantt", "Depalpur", "Renala Khurd", "Basirpur", "Haveli Lakha", "Hujra Shah Muqeem"],
+    "tags": [
+      "Okara City",
+      "Okara Cantt",
+      "Depalpur",
+      "Renala Khurd",
+      "Basirpur",
+      "Haveli Lakha",
+      "Hujra Shah Muqeem"
+    ],
     "exploreH3": "Explore",
     "exploreLinks": [
-      { "href": "#services", "text": "Our services" },
-      { "href": "#areas", "text": "Areas we cover" },
-      { "href": "#listings", "text": "Available property" },
-      { "href": "#prices", "text": "Okara price guide" },
-      { "href": "#process", "text": "Buying process" },
-      { "href": "#faq", "text": "Questions &amp; answers" }
+      {
+        "href": "#services",
+        "text": "Our services"
+      },
+      {
+        "href": "#areas",
+        "text": "Areas we cover"
+      },
+      {
+        "href": "#listings",
+        "text": "Available property"
+      },
+      {
+        "href": "#prices",
+        "text": "Okara price guide"
+      },
+      {
+        "href": "#process",
+        "text": "Buying process"
+      },
+      {
+        "href": "#faq",
+        "text": "Questions & answers"
+      }
     ],
     "typesH3": "Property types",
     "typesLinks": [
-      { "href": "#listings", "text": "Houses for sale in Okara" },
-      { "href": "#listings", "text": "Residential plots in Okara" },
-      { "href": "#listings", "text": "Commercial shops on GT Road" },
-      { "href": "#listings", "text": "Agricultural land in Okara" },
-      { "href": "#listings", "text": "Houses for rent in Okara" },
-      { "href": "#prices", "text": "Per-size price guide" }
+      {
+        "href": "#listings",
+        "text": "Houses for sale in Okara"
+      },
+      {
+        "href": "#listings",
+        "text": "Residential plots in Okara"
+      },
+      {
+        "href": "#listings",
+        "text": "Commercial shops on GT Road"
+      },
+      {
+        "href": "#listings",
+        "text": "Agricultural land in Okara"
+      },
+      {
+        "href": "#listings",
+        "text": "Houses for rent in Okara"
+      },
+      {
+        "href": "#prices",
+        "text": "Per-size price guide"
+      }
     ],
     "contactH3": "Contact",
-    "addressShort": "Opposite Azhar Residencies,<br>GT Road, Okara 56300",
+    "addressShort": [
+      "Opposite Azhar Residencies,",
+      "GT Road, Okara 56300"
+    ],
     "whatsappLink": "WhatsApp us",
-    "hoursShort": "Mon&ndash;Sat, 9:00am&ndash;7:00pm",
+    "hoursShort": "Mon–Sat, 9:00am–7:00pm",
     "rights": "Muhammad Properties, Okara. All rights reserved.",
     "creditsLink": "Photograph credits",
     "sitemapLink": "Sitemap",
     "langH3": "Language"
   },
-
   "notFound": {
     "title": "Page not found | Muhammad Properties, Okara",
     "description": "That page doesn't exist. Head back to Muhammad Properties — property dealers in Okara, Punjab.",
@@ -382,20 +1017,42 @@
     "cta2": "See available property",
     "cta3": "WhatsApp us"
   },
-
   "jsonld": {
     "siteName": "Muhammad Properties, Okara",
     "siteDescription": "Property dealers in Okara, Punjab — houses, plots, commercial property and agricultural land across Okara District.",
     "pageName": "Property Dealers in Okara | Houses, Plots & Land for Sale",
     "agentDescription": "Okara-based real estate agency dealing in houses, residential plots, commercial shops and agricultural land across Okara, Depalpur and Renala Khurd tehsils of Okara District, Punjab, Pakistan.",
     "services": [
-      { "name": "Buying residential property in Okara", "type": "Residential property purchase" },
-      { "name": "Selling property in Okara", "type": "Property sale and valuation" },
-      { "name": "Renting houses, offices and shops in Okara", "type": "Property rental and tenancy" },
-      { "name": "Agricultural land dealing in Okara District", "type": "Agricultural land sale and purchase" },
-      { "name": "Commercial property on GT Road, Okara", "type": "Commercial property dealing" },
-      { "name": "Property transfer and documentation support", "type": "Title verification, stamp duty and registry" }
+      {
+        "name": "Buying residential property in Okara",
+        "type": "Residential property purchase"
+      },
+      {
+        "name": "Selling property in Okara",
+        "type": "Property sale and valuation"
+      },
+      {
+        "name": "Renting houses, offices and shops in Okara",
+        "type": "Property rental and tenancy"
+      },
+      {
+        "name": "Agricultural land dealing in Okara District",
+        "type": "Agricultural land sale and purchase"
+      },
+      {
+        "name": "Commercial property on GT Road, Okara",
+        "type": "Commercial property dealing"
+      },
+      {
+        "name": "Property transfer and documentation support",
+        "type": "Title verification, stamp duty and registry"
+      }
     ],
-    "breadcrumbs": ["Home", "Areas we cover in Okara", "Property available in Okara", "Okara price guide"]
+    "breadcrumbs": [
+      "Home",
+      "Areas we cover in Okara",
+      "Property available in Okara",
+      "Okara price guide"
+    ]
   }
 }
