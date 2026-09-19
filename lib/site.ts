@@ -1,6 +1,6 @@
 /** Facts about the business that never change with language. */
 
-export const SITE_URL = 'https://www.muhammadproperties.online';
+export const SITE_URL = 'https://muhammadproperties.online';
 
 export const PHONE_E164 = '+923056847007';
 export const PHONE_HUMAN = '+92 305 6847007';
@@ -16,6 +16,9 @@ export const MAP_EMBED =
 export const FACEBOOK = 'https://www.facebook.com/people/Muhammadproperty/61579241310289/';
 export const COMMONS_OKARA = 'https://commons.wikimedia.org/wiki/Category:Okara';
 export const COMMONS_DISTRICT = 'https://commons.wikimedia.org/wiki/Category:Okara_District';
+
+/** Google Analytics 4 web stream for muhammadproperties.online. */
+export const GA_MEASUREMENT_ID = 'G-ZC4GCP2D63';
 
 export const OG_IMAGE = `${SITE_URL}/images/og-image.jpg`;
 export const HERO_IMAGE = '/images/okara/okara-evening.jpg';

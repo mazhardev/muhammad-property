@@ -4,7 +4,7 @@
 > residential plots, commercial shops and agricultural land across all three tehsils of
 > Okara District: Okara, Depalpur and Renala Khurd. Operating since 2010.
 
-Website: https://www.muhammadproperties.online/
+Website: https://muhammadproperties.online/
 Last reviewed: 11 August 2026
 
 ## Languages
@@ -12,9 +12,9 @@ Last reviewed: 11 August 2026
 The same content is published in three languages. Each has its own URL and is
 fully translated — not machine-switched at runtime:
 
-- English — https://www.muhammadproperties.online/ (x-default)
-- Urdu (اردو), right-to-left — https://www.muhammadproperties.online/ur/
-- Punjabi in Shahmukhi script (پنجابی), right-to-left — https://www.muhammadproperties.online/pa/
+- English — https://muhammadproperties.online/ (x-default)
+- Urdu (اردو), right-to-left — https://muhammadproperties.online/ur/
+- Punjabi in Shahmukhi script (پنجابی), right-to-left — https://muhammadproperties.online/pa/
 
 Urdu and Punjabi are the languages actually spoken by clients in Okara; English
 is provided for overseas Pakistani buyers and for reference.

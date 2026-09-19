@@ -99,4 +99,4 @@ Allow: /
 User-agent: Timpibot
 Allow: /
 
-Sitemap: https://www.muhammadproperties.online/sitemap.xml
+Sitemap: https://muhammadproperties.online/sitemap.xml

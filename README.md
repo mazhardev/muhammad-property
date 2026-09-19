@@ -98,8 +98,11 @@ public/                 served verbatim at the site root
 - **The photographs show neighbourhoods, not listings.** They are real pictures of Okara
   under Creative Commons licences and must keep their credits — see
   `public/images/okara/CREDITS.md` and the credits section at the bottom of each page.
-- **No CDNs.** Fonts, icons, styles and scripts are all served from this domain, so the site
-  stays fast in Okara and keeps working if a third party goes down.
+- **One third party: Google Analytics.** Fonts, icons, styles and the site's own scripts are
+  all served from this domain. The only outside request is Google Analytics 4
+  (`G-ZC4GCP2D63`, set in `lib/site.ts`), which loads after the page is interactive so it
+  never delays the content. It is left out of `npm run dev`, so local testing does not
+  show up as real visitors. The contact forms never pass names, numbers or messages to it.
 - **The forms do not send anything.** They open WhatsApp with the message pre-filled;
   nothing is stored on the site.
 - **The Nastaliq font is only downloaded on the Urdu and Punjabi pages.** It is a 234 KB
