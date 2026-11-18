@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleTagManager } from '@next/third-parties/google';
 import { ThemeScript } from '@/components/client/ThemeScript';
 import { getContent, type Lang } from '@/lib/content';
-import { GA_MEASUREMENT_ID, HERO_IMAGE } from '@/lib/site';
+import { GOOGLE_TAG_ID, HERO_IMAGE } from '@/lib/site';
 
 import '@/styles/styles.css';
 
@@ -39,7 +39,7 @@ export function SiteShell({ lang, children }: { lang: Lang; children: ReactNode 
       {/* Only in production builds, so `npm run dev` on a laptop never shows
           up as visitors in the real Analytics reports. Loaded after the page
           is interactive, so it never delays the content itself. */}
-      {process.env.NODE_ENV === 'production' && <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />}
+      {process.env.NODE_ENV === 'production' && <GoogleTagManager gtmId={GOOGLE_TAG_ID} />}
     </html>
   );
 }

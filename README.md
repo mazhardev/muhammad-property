@@ -99,8 +99,8 @@ public/                 served verbatim at the site root
   under Creative Commons licences and must keep their credits — see
   `public/images/okara/CREDITS.md` and the credits section at the bottom of each page.
 - **One third party: Google Analytics.** Fonts, icons, styles and the site's own scripts are
-  all served from this domain. The only outside request is Google Analytics 4
-  (`G-ZC4GCP2D63`, set in `lib/site.ts`), which loads after the page is interactive so it
+  all served from this domain. The only outside request is the Google tag
+  (`GTM-5JKJVDVG`, set in `lib/site.ts`), which loads after the page is interactive so it
   never delays the content. It is left out of `npm run dev`, so local testing does not
   show up as real visitors. The contact forms never pass names, numbers or messages to it.
 - **The forms do not send anything.** They open WhatsApp with the message pre-filled;

@@ -17,8 +17,8 @@ export const FACEBOOK = 'https://www.facebook.com/people/Muhammadproperty/615792
 export const COMMONS_OKARA = 'https://commons.wikimedia.org/wiki/Category:Okara';
 export const COMMONS_DISTRICT = 'https://commons.wikimedia.org/wiki/Category:Okara_District';
 
-/** Google Analytics 4 web stream for muhammadproperties.online. */
-export const GA_MEASUREMENT_ID = 'G-ZC4GCP2D63';
+/** Google tag (Tag Manager container) that feeds Google Analytics for muhammadproperties.online. */
+export const GOOGLE_TAG_ID = 'GTM-5JKJVDVG';
 
 export const OG_IMAGE = `${SITE_URL}/images/og-image.jpg`;
 export const HERO_IMAGE = '/images/okara/okara-evening.jpg';
